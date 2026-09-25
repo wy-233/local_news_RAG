@@ -1,0 +1,26 @@
+# 环境变量：包含 API key 等敏感信息
+.env
+
+# ChromaDB 本地向量库（自动生成，体积可能较大）
+chroma_db/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 新闻数据文件（自行准备，不提交）
+news.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
